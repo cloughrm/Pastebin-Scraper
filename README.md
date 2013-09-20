@@ -6,7 +6,16 @@ Monitors pastebin.com for a specified set of keywords.
 Usage
 =====
 
-Copy pastebin.py to the location of your choice. Make a file called 'keywords.txt' in the same directory.
+Copy pastebin.py to the location of your choice. Make a file called 'keywords.txt' in the same directory. When a pate contains a word from the keyword.txt file, the paste will be saved in a 'Pastebin' folder within date sorted folders.
+	| - pastebin.py
+	| - keywords.txt
+	| - Pastebin
+		| - Year
+			| - Month
+				| - Day
+					| - date_pasteID_matchedKeywords.txt
+					| - date_pasteID_matchedKeywords.txt
+					| - date_pasteID_matchedKeywords.txt
 
 Dependencies
 ============
