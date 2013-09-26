@@ -108,7 +108,7 @@ def main():
                         if keyword.lower() in paste_text.lower():
                             hits.append(keyword)
                     
-                    # If there are hits, add to Google Drive
+                    # If there are hits, save to file system
                     if hits:
                         if _verbose:
                             print 'INFO: Keyword Hit '+paste_id+' '+','.join(hits)
