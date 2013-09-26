@@ -3,7 +3,7 @@ pastebin.py
 Author: Ryan Clough
 Scrapes Pastebin in real time over the TOR network
 If there is a match on a keyword (located in keywords.txt)
-add the file to Google Drive
+save the file locally.
 
 Developed for Windows 7
 '''
